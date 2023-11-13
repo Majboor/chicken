@@ -17,7 +17,7 @@
 
 SplashScreen.prototype.draw = function() {
     drawGame(this.game, false, true);
-    drawText(this.game, "Run Chicken Run", 0, 0.12, 2);
+    drawText(this.game, "Chicken Range", 0, 0.12, 2);
     drawText(this.game, "A chicken, lost in the woods, runs from the fox.", 0, 0.05, 0.7);
     drawButton(this.game, this.startButton);
 };
